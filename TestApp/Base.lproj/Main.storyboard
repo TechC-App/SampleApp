@@ -48,6 +48,12 @@
                                     <action selector="didTapButton:" destination="9pv-A4-QxB" eventType="touchUpInside" id="Zvk-C9-nhr"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="AutoLayoutあり" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hrh-wJ-ShS">
+                                <rect key="frame" x="240" y="171" width="121" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                         <constraints>
@@ -55,6 +61,8 @@
                             <constraint firstItem="i5g-0C-Hud" firstAttribute="top" secondItem="Ia1-K6-d13" secondAttribute="bottom" constant="13" id="6Kg-gy-UDe"/>
                             <constraint firstItem="yaG-NT-mtG" firstAttribute="top" secondItem="A5M-7J-77L" secondAttribute="bottom" constant="8" id="8ng-IS-bsi"/>
                             <constraint firstItem="yaG-NT-mtG" firstAttribute="centerX" secondItem="tsR-hK-woN" secondAttribute="centerX" id="GTs-M0-h9g"/>
+                            <constraint firstItem="hrh-wJ-ShS" firstAttribute="centerX" secondItem="i5g-0C-Hud" secondAttribute="centerX" id="RDM-c7-fGb"/>
+                            <constraint firstItem="hrh-wJ-ShS" firstAttribute="top" secondItem="i5g-0C-Hud" secondAttribute="bottom" constant="10" id="V8h-k5-g9g"/>
                             <constraint firstItem="A5M-7J-77L" firstAttribute="top" secondItem="KQZ-1w-vlD" secondAttribute="bottom" constant="8" symbolic="YES" id="cfb-er-3JN"/>
                             <constraint firstItem="A5M-7J-77L" firstAttribute="centerX" secondItem="KQZ-1w-vlD" secondAttribute="centerX" id="e1l-AV-tCB"/>
                             <constraint firstAttribute="centerY" secondItem="KQZ-1w-vlD" secondAttribute="centerY" id="exm-UA-ej4"/>
